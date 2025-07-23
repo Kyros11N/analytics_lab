@@ -1,0 +1,152 @@
+# ==========================
+# 🔹 Python Artifacts
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+*.manifest
+*.spec
+*.cover
+*.py,cover
+.Python
+python-wheels/
+share/python-wheels/
+__pypackages__/
+
+# ==========================
+# 🔹 Environments & Package Managers
+# ==========================
+.env
+.env.*
+.venv/
+venv/
+env/
+env.bak/
+venv.bak/
+.pdm.toml
+.pdm.lock
+Pipfile.lock
+poetry.lock
+.pybuilder/
+.pytype/
+.pyre/
+.mypy_cache/
+.dmypy.json
+.dmypy.json
+
+# ==========================
+# 🔹 VS Code & JetBrains
+# ==========================
+.vscode/
+*.code-workspace
+.idea/  # (if you use PyCharm)
+
+# ==========================
+# 🔹 Jupyter & IPython
+# ==========================
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# ==========================
+# 🔹 Testing & Coverage
+# ==========================
+.pytest_cache/
+.nox/
+.tox/
+.cache/
+coverage.xml
+nosetests.xml
+htmlcov/
+.coverage
+.coverage.*
+
+# ==========================
+# 🔹 Logs & Installer Trash
+# ==========================
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==========================
+# 🔹 Framework-Specific (optional)
+# ==========================
+# Django
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Scrapy
+.scrapy/
+
+# Sphinx
+docs/_build/
+
+# SageMath
+*.sage.py
+
+# mkdocs
+/site
+
+# Rope, Spyder, etc.
+.spyderproject
+.spyproject
+.ropeproject
+
+# ==========================
+# 🔹 Secrets
+# ==========================
+.secrets/
+.secrets.*
+*.env
+*.key
+*.pem
+*.secrets
+*.event
+
+# ==========================
+# 🔹 Docker & Build Output
+# ==========================
+*.log
+docker-compose.override.yml
+cython_debug/
+build/
+dist/
+develop-eggs/
+downloads/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+.installed.cfg
+build_output/
+
+# ==========================
+# 🔹 Project-Specific Folders (optional)
+# ==========================
+data/raw/
+data/processed/
+data/external/**
+sqlite_databases/
+infra/data_upload_pipeline/build_output/*
+
+# ==========================
+# 🔹 Allow Dev Container & GitHub Configs
+# ==========================
+!.devcontainer/
+!.vscode/
+!.github/
