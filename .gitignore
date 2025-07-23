@@ -136,13 +136,11 @@ wheels/
 build_output/
 
 # ==========================
-# 🔹 Project-Specific Folders (optional)
+# 🔹 Project-Specific Folders
 # ==========================
 data/raw/
 data/processed/
 data/external/**
-sqlite_databases/
-infra/data_upload_pipeline/build_output/*
 
 # ==========================
 # 🔹 Allow Dev Container & GitHub Configs
