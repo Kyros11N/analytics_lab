@@ -1,6 +1,6 @@
 import os
 from dotenv import load_dotenv
-from src.utils.pathing import resolved_path_to_repo_root
+from src.utils.paths import resolved_path_to_repo_root
 
 
 # Load the .env file from .secrets/ directory at the repo root
