@@ -1,11 +1,5 @@
 -r requirements.txt   # include core
 
-# Jupyter / Notebooks
-ipykernel
-jupyter
-notebook
-nbclient
-
 # Testing
 pytest>=8.2,<9.0
 pytest-durations>=1.2,<2.0
@@ -14,18 +8,23 @@ pytest-retry>=1.6,<2.0
 pytest-xdist>=3.5,<4.0
 pytest-mock>=3.12,<4.0
 pytest-check>=2.4,<3.0
-pytest-docker>=3.1,<4.0
-
-# Data generation / NLP
 mimesis>=12.1,<13.0
 nltk>=3.9,<4.0
+psutil>=6.0,<7.0
+nbclient>=0.10,<1.0
+pytest-docker>=3.1,<4.0
+testcontainers>=4.7,<5.0
 
-# Validation
-pydantic>=2.11,<3.0
-
-# Git / Repo utilities
-pre-commit>=3.6,<4.0
+# Notebooks & docs
+ipykernel>=6.29,<7.0
+jupyterlab>=4.2,<5.0
+mkdocs-material>=9.5,<10.0
 nbstripout>=0.6,<1.0
 
-# System utils
-psutil>=6.0,<7.0
+# Linting & formatting
+black>=24.0,<25.0
+ruff>=0.5,<0.6
+mypy>=1.10,<2.0
+
+# Git utils
+pre-commit>=3.6,<4.0
