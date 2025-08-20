@@ -1,0 +1,31 @@
+-r requirements.txt   # include core
+
+# Jupyter / Notebooks
+ipykernel
+jupyter
+notebook
+nbclient
+
+# Testing
+pytest>=8.2,<9.0
+pytest-durations>=1.2,<2.0
+pytest-timeout>=2.3,<3.0
+pytest-retry>=1.6,<2.0
+pytest-xdist>=3.5,<4.0
+pytest-mock>=3.12,<4.0
+pytest-check>=2.4,<3.0
+pytest-docker>=3.1,<4.0
+
+# Data generation / NLP
+mimesis>=12.1,<13.0
+nltk>=3.9,<4.0
+
+# Validation
+pydantic>=2.11,<3.0
+
+# Git / Repo utilities
+pre-commit>=3.6,<4.0
+nbstripout>=0.6,<1.0
+
+# System utils
+psutil>=6.0,<7.0
