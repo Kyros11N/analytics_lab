@@ -4,7 +4,7 @@ from src.utils.paths import resolved_path_to_repo_root
 
 
 # Load the .env file from .secrets/ directory at the repo root
-SECRETS_PATH = resolved_path_to_repo_root("~/.secrets/local.env", max_parent_elevation=4)
+SECRETS_PATH = resolved_path_to_repo_root("~/.secrets/.env", max_parent_elevation=4)
 load_dotenv(SECRETS_PATH)
 
 # API Configuration
